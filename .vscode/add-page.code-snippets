@@ -1,0 +1,28 @@
+{
+
+	"Componete Funcional": {
+		"scope": "javascript",
+		"prefix": "compfunc",
+		"body": [
+			"import React from 'react';",
+			"import { Text, View, StyleSheet } from 'react-native';",
+			"",
+			"export default props =>{",
+				"return(",
+					"<View style={style.container}>",
+						"<Text>welcome!</Text>",
+					"</View>",
+				");",
+			"}",
+			"",
+			"const style = StyleSheet.create({",
+				"container:{",
+					"flex: 1,",
+					"justifyContent: 'center',",
+					"alignItems: 'center'",
+				"}",
+			"})",
+		],
+		"description": "Log output to console"
+	}
+}
