@@ -8,7 +8,9 @@ import styleDefault from '../style/Index'
 export default Register => {
 
     const [name, setName] = useState('');
-    const [senha, setSenha] = useState('');
+
+    //TODO outros estados de mudanca de texto
+    const [password, setPass] = useState('');
 
     const [expandedProduct, setExpandedProduct] = useState(false);
     const [expandedClient, setExpandedClient] = useState(false);

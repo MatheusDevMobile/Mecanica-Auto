@@ -36,7 +36,7 @@ export function DrawerContent(props) {
                         <View style={{flexDirection:'row',marginTop: 15}}>
                             <Avatar.Image 
                                 source={{
-                                    uri: 'https://media-exp1.licdn.com/dms/image/C4E03AQFud2r6S2p51g/profile-displayphoto-shrink_200_200/0?e=1612396800&v=beta&t=btjUb6kyMfay23fap1V5a_-sNMP2H-pSFNiFtzkeoVQ'
+                                    uri: 'https://cdn.pixabay.com/photo/2016/09/01/08/25/smiley-1635464_1280.png'
                                 }}
                                 size={50}
                             />
